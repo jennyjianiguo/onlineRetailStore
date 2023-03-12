@@ -23,3 +23,5 @@ The program will also support a set of known users with a:
 - username
 - credit amount
 - type (identifying "prime" users)
+
+This information can be stored and accessed through '''database.txt'''
