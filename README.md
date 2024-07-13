@@ -34,7 +34,7 @@ For the product name, book author, and clothing brand, a keyword is defined to b
 
 ## Online Store Features
 **Adding to Cart**: Allows each user to add products to their personal shopping cart
-- The ```ADD username hit_result_index``` command causes the product with index ```hit_result_index from``` the previous search result to be added to username's cart (case insensitive)
+- The ```ADD username hit_result_index``` command causes the product with index ```hit_result_index``` from the previous search result to be added to username's cart (case insensitive)
 - If a product is added to a cart twice, they are treated  as separate items and stored in the user cart twice. This implies that each command of ```ADD``` adds 1 product to the CART
 - The results from the last search are retained until a new search is performed. Thus, the hits from one search can be referenced by many ```ADD``` commands
 - The cart is maintained in FIFO (first-in, first-out) order
